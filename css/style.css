@@ -1,0 +1,124 @@
+body{
+    background-image: url(../materials/jose-reyes-istPaADgnmM-unsplash.jpg);
+}
+
+.moj_font{
+    font-family: "FrankaAntolic";
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 5rem;
+    padding-bottom: 0rem;
+}
+
+h2{
+    text-align: center;
+    color: #C0C0C0;
+    font-weight: 300;
+}
+
+
+.navbar{
+    position: fixed;
+    top: 1;
+    background-color: #00254d;
+    border-radius: 20px;
+    padding: 0.5em 2em;     
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    width: 300pt;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5em;
+}
+
+
+.navbar-list li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    border-radius: 10px;           /* Optional: rounded links */
+    transition: background 0.2s;
+}
+
+.navbar-list li a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+  
+
+.paragraf{
+    background-color: rgba(5, 21, 111, 0.821);
+    margin: 6rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: large;
+    color: #ffffff;
+}
+
+/* O meni */
+p{
+    color: #ffffff;
+}
+
+.severina-pjesme {
+    text-decoration: none;
+    display: inline-flex;
+    list-style-type: none;
+    gap: 1.5em;
+}
+
+.seve-pjesme-li a{
+    background-color: #F4C2C2;
+    border-radius: 15px;
+    padding: 2pt;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.seve-pjesme-li a:hover{
+    background-color: #FF007F;
+    color: #333;
+}
+
+
+.parfem-li {
+    color:#FF007F;
+    
+}
+
+
+/* Vjezbe */
+
+.vjezbe-podnaslov {
+    text-align: start;
+    text-decoration: underline;
+}
+
+.vjezbe-podnaslov-2 {
+    color: #a5a5a5;
+}
+
+/* Video */
+.video-reklama{
+    display: block;
+    margin: auto;
+}
+
+.p-video {
+    padding: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
